@@ -1,0 +1,245 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background: #fafafa;
+}
+
+
+
+
+
+.navbar{
+	padding: 15px 10px;
+	background-color: #fff;
+	border-radius: 0;
+    margin-bottom: 10px;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+}
+.navbar ul li{
+    margin: 0 12px;
+    align-items: center;
+}
+.navbar-btn {
+    box-shadow: none;
+    outline: none !important;
+    border: none;
+}
+.line {
+    width: 100%;
+    height: 1px;
+    border-bottom: 1px dashed #ddd;
+    margin: 40px 0;
+}
+
+i,
+span {
+    display: inline-block;
+}
+
+@media (max-width: 768px){
+
+}
+
+
+
+
+
+.about{
+    display: flex;
+    background: #fafafa;
+    justify-content: space-between;
+    padding: 30px 50px;
+    width: 100%;
+    min-height: 400px;
+}
+.about-text{
+    width: 100%;
+    text-align: justify;
+    margin: 20px;
+}
+.progress-level{
+    width: 100%;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    color: rgba(26, 25, 25, 0.897);
+}
+
+.progress{
+  
+    margin: 10px 0;
+}
+@media (max-width: 990px){
+    .about{
+        flex-direction: column;
+    }
+}
+
+
+
+
+.services{
+    background: linear-gradient(rgba(0, 0, 0, 0.452), rgba(0, 0, 0, 0.452), rgba(0, 0, 0, 0.452)), url(../images/1.png);
+    width: 100%;
+    min-height: 600px;
+    background-position: center;
+    background-size: cover;
+}
+.services h1{
+    text-align: center;
+    padding-top: 50px;
+    color: whitesmoke;
+}
+
+.sevice{
+    color: rgb(206, 194, 194);
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+@media (max-width: 990px){
+    .sevice{
+        flex-direction: column;
+    }  
+}
+
+.our-servce span h2{
+    text-align: center;
+}
+.our-servce{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 0 20px;
+}
+.our-servce span{
+    width: 100%;
+    margin: 15px;
+    text-align: justify;
+    
+}
+
+
+
+.our-team h1{
+    text-align: center;
+    padding-top: 30px;
+}
+.team{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+    width: 100%;
+}
+
+@media (max-width: 990px){
+    .team{
+        flex-direction: column;
+    } 
+}
+
+
+.member{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 15px;
+    padding: 10px;
+}
+.member:hover{
+    background: rgba(8, 8, 145, 0.753);
+    border-radius: 10px;
+}
+.image img{
+    border-radius: 20px;
+}
+.image{
+    display: flex;
+    justify-content: center;
+}
+.name{
+    font-size: 25px;
+    text-align: center;
+}
+.position{
+    text-align: center;
+    font-size: 25px;
+}
+.body{
+    text-align: justify;
+}
+
+
+
+
+
+
+.join{
+    background: linear-gradient(rgba(0, 0, 0, 0.452), rgba(0, 0, 0, 0.452), rgba(0, 0, 0, 0.452)), url(../images/1x.jpg);
+    width: 100%;
+    min-height: 200px;
+    background-position: center;
+    background-size: cover;
+}
+.to-join{
+    text-align: center;
+    padding-top: 35px;
+    font-size: 20px;
+}
+
+
+
+
+
+.prize-plan{
+    width: 100%;
+    background: rgba(138, 135, 135, 0.712);
+}
+.prize-plan h2{
+    text-align: center;
+    padding-top: 20px;
+}
+.prizes{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+}
+
+
+@media (max-width: 990px){
+    .prizes{
+        flex-direction: column;
+    }  
+}
+
+.prizes div{
+    width: 100%;
+    margin: 30px;
+    text-align: center;
+}
+.prizes div ul{
+    text-decoration: none;
+}
+.prizes div button{
+    background: darkblue;
+    color: darkgray;
+    width: 100px;
+    height: 50px;
+    border-radius: 15px;
+}
+
+
+
+
+
+.our-testimone{
+    width: 100%;
+}
+.testimony{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+}
+.testimony div{
+    width: 100%;
+}
