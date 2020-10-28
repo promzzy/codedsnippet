@@ -227,6 +227,9 @@ span {
     height: 50px;
     border-radius: 15px;
 }
+ul li{
+    list-style: none;
+}
 
 
 
@@ -234,12 +237,85 @@ span {
 
 .our-testimone{
     width: 100%;
+    min-height: 400px;
 }
 .testimony{
     display: flex;
     justify-content: space-between;
     padding: 30px;
 }
+@media (max-width: 990px){
+    .testimony{
+        flex-direction: column;
+    }
+}
+.our-testimone h2{
+    padding-top: 30px;
+}
 .testimony div{
     width: 100%;
+    margin: 10px;
+}
+.testimony-image{
+    display: flex;
+    justify-content: center;
+}
+.testimony-image img{
+    height: 100px;
+    width: 100px;
+    border-radius: 100%;
+    border: 5px khaki solid;
+    z-index: 1;
+}
+.testimony-text{
+    padding: 25px;
+    padding-top: 50px;
+    margin-top: -40px;
+    background: lavender;
+}
+
+
+
+
+
+
+
+
+.form-address{
+    display: flex;
+    justify-content: space-between;
+}
+@media (max-width: 990px){
+    .form-address{
+        flex-direction: column;
+    }
+}
+.sign-up{
+    width: 100%;
+    margin: 10px;
+}
+.address{
+    width: 100%;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.address div{
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+}
+
+
+.footer{
+    background: rgb(56, 56, 158);
+    height: 100px;
+    width: 100%;
+}
+.footer div{
+text-align: center;
+padding-top: 40px;
+font-size: 25px;
+font-weight: bold;
 }
